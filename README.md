@@ -14,3 +14,12 @@ npm >= 5.2.0
 ```
 npx install-peerdeps --dev @britannica/eslint-config
 ```
+
+#### Usage
+
+```
+// .eslintrc
+{
+    "extends": ["@britannica"]
+}
+```
