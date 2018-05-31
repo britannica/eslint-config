@@ -11,5 +11,5 @@ npm@5.2.0+
 #### Installation
 
 ```
-npm install --save-dev @britannica/eslint-config
+npx install-peerdeps --dev @britannica/eslint-config
 ```

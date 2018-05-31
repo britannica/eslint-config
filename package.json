@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Walters (https://ryanwalters.co)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/britannica/eslint-config",
+  "peerDependencies": {
+    "eslint": "^4.19.1"
+  }
 }
