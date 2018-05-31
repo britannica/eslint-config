@@ -6,7 +6,9 @@ const pkg = require('../package.json');
 
 async function updatePeerDependencies() {
   try {
-    const { stdout } = await exec('npm info eslint-config-airbnb peerDependencies --json');
+    const AIRBNB_CONFIG_PACKAGE = 'eslint-config-airbnb';
+    const airbnbDependency = `${AIRBNB_CONFIG_PACKAGE}@${pkg.dependencies[AIRBNB_CONFIG_PACKAGE]}`;
+    const { stdout } = await exec(`npm info ${airbnbDependency} peerDependencies --json`);
 
     pkg['peerDependencies'] = JSON.parse(stdout);
 
