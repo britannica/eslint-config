@@ -5,7 +5,8 @@ Extends [Airbnb's style guide](https://github.com/airbnb/javascript), specifical
 #### Requirements
 
 ```
-npm@5.2.0+
+node >= 8
+npm >= 5.2.0
 ```
 
 #### Installation

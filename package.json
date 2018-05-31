@@ -4,13 +4,17 @@
   "description": "Encyclopedia Britannica's ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx install-peerdeps --dev eslint-config-airbnb",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preversion": "npm run update-peerdeps",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-peerdeps": "node ./scripts/update-peerdeps.js"
   },
   "author": "Ryan Walters (https://ryanwalters.co)",
   "license": "MIT",
   "repository": "https://github.com/britannica/eslint-config",
   "peerDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
   }
 }
