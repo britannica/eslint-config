@@ -4,11 +4,9 @@
   "description": "Encyclopedia Britannica's ESLint configuration",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx install-peerdeps --dev eslint-config-airbnb",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Walters (https://ryanwalters.co)",
-  "license": "MIT",
-  "peerDependencies": {
-    "eslint-config-airbnb": "^16.1.0"
-  }
+  "license": "MIT"
 }
