@@ -9,7 +9,7 @@ node >= 8
 npm >= 5.2.0
 ```
 
-#### Installation
+#### Install
 
 ```
 npx install-peerdeps --dev @britannica/eslint-config
