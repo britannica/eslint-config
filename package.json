@@ -4,7 +4,6 @@
   "description": "Encyclopedia Britannica's ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "preversion": "npm run update-peerdeps",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-peerdeps": "node ./scripts/update-peerdeps.js"
   },
