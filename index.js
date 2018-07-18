@@ -10,6 +10,9 @@ module.exports = {
       "beforeLineComment": true,
       "afterLineComment": true
     }],
+    "lines-between-class-members": ["error", {
+      "exceptAfterSingleLine": true
+    }],
     "max-len": 0,
     "newline-before-return": "error",
     "newline-after-var": "error",
@@ -29,8 +32,6 @@ module.exports = {
     "radix": 0,
     "space-before-blocks": "error",
     "react/jsx-filename-extension": 0,
-    "lines-between-class-members": ["error", {
-      "exceptAfterSingleLine": true
-    }]
+    "react/jsx-one-expression-per-line": 0
   },
 };
