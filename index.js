@@ -10,7 +10,7 @@ module.exports = {
       "beforeLineComment": true,
       "afterLineComment": true
     }],
-    "lines-between-class-members": ["error", {
+    "lines-between-class-members": ["error", "always", {
       "exceptAfterSingleLine": true
     }],
     "max-len": 0,
