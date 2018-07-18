@@ -28,6 +28,9 @@ module.exports = {
     ],
     "radix": 0,
     "space-before-blocks": "error",
-    "react/jsx-filename-extension": 0
+    "react/jsx-filename-extension": 0,
+    "lines-between-class-members": ["error", {
+      "exceptAfterSingleLine": true
+    }]
   },
 };
