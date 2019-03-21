@@ -33,6 +33,8 @@ module.exports = {
     "radix": 0,
     "space-before-blocks": "error",
     "react/jsx-filename-extension": 0,
-    "react/jsx-one-expression-per-line": 0
+    "react/jsx-one-expression-per-line": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
 };
