@@ -1,5 +1,6 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: "airbnb",
+  plugins: ["react-hooks"],
   "rules": {
     "brace-style": ["error", "stroustrup"],
     "linebreak-style": 0,
