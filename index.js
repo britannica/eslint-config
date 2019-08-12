@@ -35,6 +35,7 @@ module.exports = {
     "react/jsx-filename-extension": 0,
     "react/jsx-one-expression-per-line": 0,
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-props-no-spreading": 0,
   },
 };
