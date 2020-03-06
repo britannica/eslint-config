@@ -1,6 +1,6 @@
 {
   "name": "@britannica/eslint-config",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Encyclopedia Britannica's ESLint configuration",
   "main": "index.js",
   "scripts": {
