@@ -4,21 +4,20 @@
   "description": "Encyclopedia Britannica's ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\"",
     "update-peerdeps": "node ./scripts/update-peerdeps.js"
   },
-  "author": "Ryan Walters (https://ryanwalters.co)",
+  "author": "Ryan Walters (https://ryanwalters.dev)",
   "license": "MIT",
   "repository": "https://github.com/britannica/eslint-config",
   "peerDependencies": {
-    "eslint": "^5.16.0 || ^6.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-react-hooks": "^2.5.0"
+    "eslint-config-airbnb": "^18.2.0"
   }
 }
