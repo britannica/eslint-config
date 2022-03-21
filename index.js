@@ -2,7 +2,6 @@ module.exports = {
   extends: "airbnb",
   plugins: ["react-hooks"],
   "rules": {
-    "brace-style": ["error", "stroustrup"],
     "linebreak-style": 0,
     "lines-around-comment": ["error", {
       "allowBlockStart": true,
